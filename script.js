@@ -10,7 +10,6 @@ button.addEventListener('click', function() {
   let checkEmail = re.test(String(input.value).toLowerCase());
 
   if (checkEmail == true) {
-    console.log('t')
     erorIcon.style.display = "none";
     inputBlock.style.border = " solid 1px hsl(0, 36%, 70%)";
     erorText.style.display = "none";
